@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+::root{
+    --Green-200-lighter: hsl(148, 38%, 91%);
+    --Green-600-medium: hsl(169, 82%, 27%);
+    --Red: hsl(0, 66%, 54%);
+    --White: hsl(0, 0%, 100%);
+    --Grey-500-medium: hsl(186, 15%, 59%);
+    --Grey-900-darker: hsl(187, 24%, 22%);
+}
+
+body{
+    background-color: rgb(209, 255, 217); 
+    justify-content: center;
+    font-family: Karla;
+}
+
+.container, .formulario{
+    background-color: white;
+    border-radius: 12px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    flex-direction: column;
+    width: 560px;
+    height: 600px;
+    padding: 15px;
+}
+
+input{
+    border-radius: 6px;
+    padding: 8px;
+}
+
+#gn{
+    border-radius: ;
+}
